@@ -58,6 +58,64 @@ a {
   color: var(--main-bg-color);
 }
 
+/**********Header*********/
+.header {
+  margin: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 3.1rem;
+  object-fit: contain;
+}
+
+.navbar {
+  display: flex;
+  gap: 4rem;
+}
+
+.navbar_item:hover {
+  color: var(--main-color);
+  border-top: var(--main-color) 2px solid;
+  padding-top: 1rem;
+}
+
+.navbar_item.active {
+  color: var(--main-color);
+}
+
+/* Reprendre la navbar plus tard (hover ect...)
+    media querries mobile : 
+
+navbar_item {
+ width: 50%
+
+color: blue;
+    border-bottom: blue 1px solid;
+    padding-bottom: 2rem;
+) */
+
+/* ********* Heroheader ********* */
+
+.heroHeader_title {
+  font-size: 1.4rem;
+}
+
+.heroHeader_text {
+  font-weight: 500;
+}
+
+.category_filter {
+  border: #deebff 1px solid;
+}
+
+.category_filter-title {
+  font-size: 1.06rem;
+}
+
+/* Revoir cette partie aussi */
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
