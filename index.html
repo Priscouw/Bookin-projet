@@ -17,10 +17,10 @@
 <body>
     <div class="main-container">
         <header class="header">
-            <img class="header_logo" src="./images/logo/Booki@3x.png" alt="logo-booki">
+            <img class="header_logo header-border" src="./images/logo/Booki@3x.png" alt="logo-booki">
             <nav class="navbar">
-                <a class="navbar_item active">Hébergements</a>
-                <a class="navbar_item">Activités</a>
+                <a class="navbar_item active" href="#">Hébergements</a>
+                <a class="navbar_item header-border" href="#">Activités</a>
             </nav>
         </header>
 
@@ -28,14 +28,16 @@
             <div class="heroHeader">
                 <h1 class="heroHeader_title">Trouvez votre hébergement pour des vacances de rêves</h1>
                 <p class="heroHeader_text">En plein centre-ville ou en pleine nature</p>
-                <div class="heroHeader_searchbar">
-                    <form action="#" method="get">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <input type="search" placeholder="Marseille,France">
-                        <button></button>
-                    </form>
 
-                </div>
+                <form action="#" method="get" class="heroHeader_searchbar">
+                    <i class="fa-solid fa-location-dot "></i>
+                    <input type="search" placeholder="Marseille,France" class="searchbar_input">
+                    <button class="searchbar_button">
+                        <p>Rechercher</p>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+
                 <div class="heroHeader_filters">
                     <h3 class="filters_title">Filtres</h3>
                     <div class="category_container">
