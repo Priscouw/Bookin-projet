@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../bookin-projet3/css/style.css">
 </head>
 
 <body>
@@ -26,43 +26,44 @@
 
         <main>
             <div class="heroHeader">
-                <h1 class="heroHeader_title">Trouvez votre hébergement pour des vacances de rêves</h1>
+                <h1 class="heroHeader_title">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="heroHeader_text">En plein centre-ville ou en pleine nature</p>
 
                 <form action="#" method="get" class="heroHeader_searchbar">
-                    <i class="fa-solid fa-location-dot "></i>
-                    <input type="search" placeholder="Marseille,France" class="searchbar_input">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Marseille, France" class="searchbar_input">
                     <button class="searchbar_button">
-                        <p>Rechercher</p>
+                        <p class="searchbar_button-text">Rechercher</p>
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </form>
 
                 <div class="heroHeader_filters">
                     <h3 class="filters_title">Filtres</h3>
-                    <div class="category_container">
-                        <div class="category_filter">
+                    <ul class="category_container">
+                        <li class="category_filter">
                             <i class="fa-solid fa-money-bill-wave"></i>
                             <h3 class="category_filter-title">Économique</h3>
-                        </div>
-                        <div class="category_filter">
+                        </li>
+                        <li class="category_filter">
                             <i class="fa-solid fa-person"></i>
                             <h3 class="category_filter-title">Familial</h3>
-                        </div>
-                        <div class="category_filter">
+                        </li>
+                        <li class="category_filter">
                             <i class="fa-solid fa-heart"></i>
                             <h3 class="category_filter-title">Romantique</h3>
-                        </div>
-                        <div class="category_filter">
-                            <i class="fa-solid fa-fire"> </i>Nos pépites
+                        </li>
+                        <li class="category_filter">
+                            <i class="fa-solid fa-fire"> </i>
+                            <h3 class="category_filter-title">Nos pépites</h3>
 
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
-
-                <i class="fa-solid fa-info"></i>
-                <p class="heroHeader_text">Plus de 500 logements sont disponibles dans cette ville</p>
-
+                <div class="heroHeader_info">
+                    <i class="fa-solid fa-info"></i>
+                    <p class="heroHeader_text">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
             </div>
 
             <div class="hebergements-and-populaires">
