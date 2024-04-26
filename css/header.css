@@ -96,6 +96,10 @@
   padding: 0 1rem;
 }
 
+.searchbar_button:hover {
+  cursor: pointer;
+}
+
 .fa-solid.fa-magnifying-glass {
   display: none;
 }
@@ -124,6 +128,7 @@
 
 .category_filter:hover {
   background-color: var(--filter-bg-color);
+  cursor: pointer;
 }
 
 .category_filter i {
