@@ -76,7 +76,6 @@
 
 .searchbar_input {
   border: var(--main-bg-color) 1px solid;
-  text-align: center;
 }
 
 .searchbar_input,
@@ -84,6 +83,7 @@
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
+  padding-left: 1rem;
 }
 
 .searchbar_button {
@@ -216,7 +216,7 @@
 
   .searchbar_input {
     border-right: none;
-    padding-right: 3rem;
+    padding-right: 1.5rem;
   }
   .searchbar_button {
     margin-left: -0.5rem;
