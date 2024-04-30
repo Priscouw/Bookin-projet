@@ -35,6 +35,7 @@
   border-top: #0065fc 2px solid;
   padding-top: 1rem;
 }
+
 .navbar_item:hover {
   color: var(--main-color);
   border-top: var(--main-color) 2px solid;
