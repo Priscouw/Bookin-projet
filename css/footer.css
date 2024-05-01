@@ -3,10 +3,10 @@
 .footer-container {
   background-color: var(--main-bg-color);
   display: flex;
+  padding-left: 1rem;
 }
 
 .footer-list {
-  padding-left: 1rem;
   width: 33%;
 }
 

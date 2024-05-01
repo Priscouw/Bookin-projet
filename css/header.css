@@ -121,6 +121,7 @@
   list-style-type: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
   border: var(--grey) 2px solid;
   border-radius: 3rem;
@@ -133,7 +134,7 @@
 }
 
 .category_filter i {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .category_filter-title {
@@ -212,13 +213,16 @@
   }
 
   .heroHeader {
-    margin: 2rem;
+    margin: 1rem;
+  }
+  .searchbar_input,
+  .searchbar_input::placeholder {
+    border-right: none;
+    padding-right: 0;
+    font-size: 1rem;
+    padding-left: 0.8rem;
   }
 
-  .searchbar_input {
-    border-right: none;
-    padding-right: 1.5rem;
-  }
   .searchbar_button {
     margin-left: -0.5rem;
     border-radius: 15px 15px 15px 15px;
@@ -235,11 +239,20 @@
   }
 
   .category_container {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     column-gap: 0.7rem;
   }
 
+  .category_filter {
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+  .category_filter i {
+    font-size: 1.2rem;
+  }
+
   .category_filter-title {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }

@@ -102,7 +102,7 @@
 /****** Activités *****/
 
 .activities {
-  margin: 2rem 1rem;
+  margin: 1rem 1rem 2rem;
 }
 
 .activities .section-title {
@@ -117,6 +117,10 @@
 .activities-cards a {
   width: 23%;
   padding: 0;
+}
+
+.activities-cards .card {
+  padding: 0 0 5px;
 }
 
 .activities-cards img {
@@ -189,6 +193,7 @@
 
   .hebergements-and-populaires section {
     border-radius: 0;
+    padding: 1.8rem 1rem;
   }
 
   .hebergements-and-populaires .hebergements {
