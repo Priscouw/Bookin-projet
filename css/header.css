@@ -9,9 +9,6 @@
   width: 3.8rem;
   height: 1.1rem;
   object-fit: contain;
-}
-
-.header-border {
   border-top: white 2px solid;
   padding-top: 1rem;
 }
@@ -27,6 +24,8 @@
 }
 
 .navbar_item {
+  border-top: white 2px solid;
+  padding-top: 1rem;
   font-size: 1rem;
 }
 
@@ -97,23 +96,21 @@
   padding: 0 1rem;
 }
 
-.searchbar_button:hover {
-  cursor: pointer;
-}
-
 .fa-solid.fa-magnifying-glass {
   display: none;
 }
 
 /**** Filters ****/
 
+/* reprendre cette partie */
+
 .heroHeader_filters {
   display: flex;
   align-items: center;
 }
+
 .category_container {
-  display: grid;
-  grid-template-columns: 25% 20% 25% 25%;
+  display: flex;
   gap: 1rem;
 }
 
@@ -121,7 +118,6 @@
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 0.8rem;
   border: var(--grey) 2px solid;
   border-radius: 3rem;
@@ -130,15 +126,14 @@
 
 .category_filter:hover {
   background-color: var(--filter-bg-color);
-  cursor: pointer;
 }
 
 .category_filter i {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .category_filter-title {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 /* icon info and text  */
 
@@ -188,23 +183,14 @@
     gap: 0;
   }
 
-  .header-border {
-    border-top: none;
-  }
-
   .navbar_item {
+    border-top: none;
     width: 50%;
     border-bottom: var(--main-bg-color) 2px solid;
     padding-bottom: 1rem;
   }
 
-  .navbar_item.active {
-    color: var(--main-color);
-    border-top: none;
-    padding-top: 1rem;
-    border-bottom: var(--main-color) 2px solid;
-  }
-
+  .navbar_item.active,
   .navbar_item:hover {
     color: var(--main-color);
     border-top: none;
@@ -215,6 +201,7 @@
   .heroHeader {
     margin: 1rem;
   }
+
   .searchbar_input,
   .searchbar_input::placeholder {
     border-right: none;
@@ -239,17 +226,7 @@
   }
 
   .category_container {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 0.7rem;
-  }
-
-  .category_filter {
-    justify-content: flex-start;
-    gap: 0.5rem;
-  }
-
-  .category_filter i {
-    font-size: 1.2rem;
+    flex-wrap: wrap;
   }
 
   .category_filter-title {

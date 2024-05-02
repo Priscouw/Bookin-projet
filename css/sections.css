@@ -102,7 +102,7 @@
 /****** Activités *****/
 
 .activities {
-  margin: 1rem 1rem 2rem;
+  margin: 3rem 1rem 4rem;
 }
 
 .activities .section-title {
@@ -120,7 +120,8 @@
 }
 
 .activities-cards .card {
-  padding: 0 0 5px;
+  padding: 0;
+  height: 100%;
 }
 
 .activities-cards img {
