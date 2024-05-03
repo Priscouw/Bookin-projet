@@ -102,8 +102,6 @@
 
 /**** Filters ****/
 
-/* reprendre cette partie */
-
 .heroHeader_filters {
   display: flex;
   align-items: center;
@@ -115,10 +113,7 @@
 }
 
 .category_filter {
-  display: flex;
-  align-items: center;
   list-style-type: none;
-  gap: 0.8rem;
   border: var(--grey) 2px solid;
   border-radius: 3rem;
   padding: 0 1rem;
@@ -128,11 +123,18 @@
   background-color: var(--filter-bg-color);
 }
 
+.category_filter a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
 .category_filter i {
   font-size: 1.2rem;
 }
 
 .category_filter-title {
+  font-weight: 700;
   font-size: 0.9rem;
 }
 /* icon info and text  */
@@ -236,8 +238,8 @@
     gap: 0.5rem;
   }
 
-  .category_container a {
-    width: 48.5%;
+  .category_filter {
+    width: 36%;
   }
 
   .category_filter-title {
