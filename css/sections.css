@@ -32,7 +32,7 @@
   border-top-right-radius: 20px;
 }
 
-.card-txt {
+.hebergements-cards .card-txt {
   margin-left: 0.5rem;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .activities .section-title {
-  padding: 1rem 1rem 1.5rem;
+  padding: 1rem 0.8rem 1.5rem;
 }
 
 .activities-cards {
@@ -116,7 +116,6 @@
 
 .activities-cards a {
   width: 23%;
-  padding: 0;
 }
 
 .activities-cards .card {
@@ -149,7 +148,7 @@
     width: 100%;
   }
 
-  .hebergements .card-title {
+  .hebergements-cards .card-title {
     font-size: 0.95rem;
   }
 
@@ -221,7 +220,11 @@
     width: 100%;
   }
 
-  /**** activités*** */
+  /**** Activités*** */
+  .activities .section-title {
+    padding: 0rem 0rem 1.5rem;
+  }
+
   .activities-cards {
     flex-direction: column;
     gap: 1rem;

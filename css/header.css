@@ -29,12 +29,7 @@
   font-size: 1rem;
 }
 
-.navbar_item.active {
-  color: var(--main-color);
-  border-top: #0065fc 2px solid;
-  padding-top: 1rem;
-}
-
+.navbar_item.active,
 .navbar_item:hover {
   color: var(--main-color);
   border-top: var(--main-color) 2px solid;
@@ -158,6 +153,7 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
+  /* filtres */
   .heroHeader_filters {
     flex-direction: column;
     align-items: flex-start;
@@ -197,9 +193,7 @@
 
   .navbar_item.active,
   .navbar_item:hover {
-    color: var(--main-color);
     border-top: none;
-    padding-top: 1rem;
     border-bottom: var(--main-color) 2px solid;
   }
 
