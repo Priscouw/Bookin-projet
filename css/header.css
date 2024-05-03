@@ -57,7 +57,7 @@
   margin: 0;
 }
 
-/*** searchbar ***/
+/*** Searchbar ***/
 
 .heroHeader_searchbar {
   display: flex;
@@ -109,6 +109,7 @@
 
 .category_container {
   display: flex;
+  flex-flow: row wrap;
   gap: 1rem;
 }
 
@@ -234,12 +235,11 @@
   /* filters */
 
   .category_container {
-    flex-wrap: wrap;
     gap: 0.5rem;
   }
 
   .category_filter {
-    width: 36%;
+    width: 48.5%;
   }
 
   .category_filter-title {
