@@ -115,9 +115,9 @@
 }
 
 .category_filter {
-  list-style-type: none;
   display: flex;
   align-items: center;
+  list-style-type: none;
   gap: 0.8rem;
   border: var(--grey) 2px solid;
   border-radius: 3rem;
@@ -177,6 +177,8 @@
     align-items: center;
   }
 
+  /* navbar */
+
   .navbar {
     width: 100%;
     text-align: center;
@@ -202,6 +204,8 @@
     margin: 1rem;
   }
 
+  /* searchbar */
+
   .searchbar_input,
   .searchbar_input::placeholder {
     border-right: none;
@@ -225,8 +229,15 @@
     color: white;
   }
 
+  /* filters */
+
   .category_container {
     flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .category_container a {
+    width: 48.5%;
   }
 
   .category_filter-title {
