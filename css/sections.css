@@ -209,7 +209,6 @@
 
   .populaires {
     margin-top: 0;
-    /*Enlever l'espace entre les plus populaire et le headerhero*/
     order: 1;
   }
 
